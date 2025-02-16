@@ -21,6 +21,9 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 .logo-item {
@@ -33,10 +36,14 @@ body {
 }
 
 .container {
-    width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 a {
@@ -49,7 +56,9 @@ ul {
 
 .header-container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .header-nav {
@@ -65,7 +74,7 @@ ul {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-
+    padding-left: 0;
 
 }
 
@@ -82,6 +91,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item :hover,
@@ -101,6 +112,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-adr-list-item :hover,
@@ -110,6 +123,8 @@ ul {
 
 .hero {
     background-color: #2E2F42;
+    margin: auto;
+
 
 }
 
@@ -120,6 +135,10 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: auto;
+    margin-top: 68px;
+
 }
 
 
@@ -131,6 +150,13 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    display: block;
+    margin: auto;
+    width: 169px;
+    height: 56px;
+    margin-top: 50px;
+    margin-bottom: 66px;
+
 }
 
 .hero-button:hover,
