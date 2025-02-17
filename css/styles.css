@@ -26,6 +26,10 @@ body {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 .logo-item {
     font-weight: 700;
     font-size: 18px;
@@ -151,12 +155,13 @@ ul {
     color: #fff;
     background: #4d5ae5;
     display: block;
+    border: 0px;
     margin: auto;
     width: 169px;
     height: 56px;
     margin-top: 50px;
     margin-bottom: 66px;
-
+    border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -168,6 +173,22 @@ button {
     cursor: pointer;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-title {}
+
 .benefits-titles {
     font-weight: 500;
     font-size: 20px;
@@ -176,12 +197,19 @@ button {
     color: #2e2f42;
 }
 
+.benefits-list {
+    display: flex;
+    column-gap: 24px;
+    width: calc((100% - 24 * 3) / 4);
+}
+
 .benefits-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
 }
 
 .people {
@@ -196,9 +224,16 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-bottom: 72px;
 }
 
 
+.people-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: calc((100% - 24px * 3) / 4);
+}
 
 .people-names {
     font-weight: 500;
@@ -207,6 +242,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 32px;
+
 }
 
 .people-text {
@@ -216,6 +253,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
 .people-list-item {
@@ -234,7 +273,12 @@ button {
     text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-list-item {}
 
@@ -278,6 +322,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+
 }
 
 .footer-text {
@@ -287,4 +332,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    display: block;
+    padding-top: 16px;
+}
+
+.fotter-container {
+    padding-bottom: 101px;
+    padding-top: 101px;
 }
