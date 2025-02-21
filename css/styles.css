@@ -43,8 +43,7 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -147,7 +146,6 @@ ul {
     color: #fff;
     max-width: 496px;
     margin: auto;
-    margin-top: 68px;
 
 }
 
@@ -166,7 +164,7 @@ ul {
 
     height: 56px;
     margin-top: 50px;
-    margin-bottom: 66px;
+
     border-radius: 4px;
     min-width: 169px
 }
@@ -261,7 +259,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
+
     margin-bottom: 8px
 }
 
@@ -272,8 +270,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
+
 }
 
 .people-list-item {
@@ -343,8 +340,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
-    padding-left: 16px;
+
 }
 
 .footer {
@@ -383,10 +379,7 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     display: block;
-    padding-top: 16px;
+
 }
 
-.fotter-container {
-
-    padding: 100px 0 100px;
-}
+.fotter-container {}
